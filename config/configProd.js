@@ -1,0 +1,6 @@
+module.exports = {
+    ACCESS_TOKEN: 'EAADX8Yzc58YBAEN4ZBw1lWfxogKSPWhamg3pXZAstObKpYELqlqklsnzE0woEWoghuhCREJA1387gZAEOLB4ZCnaLVll7bqYwMUrSTwZBZCC7freM3cyaZAJZC9cg4716vAFb0WBunv66nDt2wL4lRQxSZC32cCuFqMrjEObakp6ZBdwZDZD',
+    VERTIFY_TOKEN: 'chatbot_token',
+    APP_SECRET: '8905763cf3c817befb5e983158b0e3d8',
+    PORT: 3000 || process.env.PORT
+}
