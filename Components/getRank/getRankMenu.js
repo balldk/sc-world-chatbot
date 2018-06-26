@@ -20,7 +20,7 @@ module.exports = (payload, chat) => {
 					},
 					{
 						type: "postback",
-						title: "Xem Top #5 Rank",
+						title: "Xem Rank Top #5",
 						payload: "RANK_TOP"
 					},
 					{
