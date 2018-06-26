@@ -9,9 +9,8 @@ module.exports = chat => {
                 tops += `#${rank}: ${name} (${point} điểm)\n`
                 console.log(res[1].data[i]);
             }
-            await chat.say(tops)
             await chat.say({
-                text: `Bạn cần thêm ${afterPoint-point+1} điểm nữa để vượt qua đối thủ tiếp theo nhé ;)`,
+                text: tops,
                 buttons: [
                     { type: 'postback', title: 'Kiểm tra lại', payload: 'RANK_ID' },
                     { type: 'postback', title: 'Xem Rank Top #5', payload: 'RANK_TOP' },
