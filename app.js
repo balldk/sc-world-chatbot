@@ -1,5 +1,5 @@
 require("isomorphic-fetch");
-const config = require("./config/configDev") || require("./config/configProd");
+const config = require("./config/configProd");
 const BootBot = require("./Components/bootbot");
 const bot = new BootBot({
 	accessToken: config.ACCESS_TOKEN,
