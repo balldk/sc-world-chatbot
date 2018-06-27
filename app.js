@@ -23,4 +23,8 @@ bot.hear('test', (payload, chat) => {
 	chat.say('test');
 });
 
+bot.on('message', (payload, chat) => {
+	chat.sendTypingIndicator(1000)
+})
+
 bot.start(config.PORT);
