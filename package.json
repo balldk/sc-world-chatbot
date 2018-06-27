@@ -5,12 +5,16 @@
   "main": "app.js",
   "scripts": {
     "dev": "start ngrok.exe 3000 && nodemon app",
-    "server": "npm --prefix Components/boobot install && node app"
+    "server": "node app"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3",
-    "isomorphic-fetch": "^2.2.1"
+    "isomorphic-fetch": "^2.2.1",
+    "body-parser": "^1.15.2",
+    "config": "^1.21.0",
+    "eventemitter3": "^1.2.0",
+    "node-fetch": "^1.5.3"
   }
 }
