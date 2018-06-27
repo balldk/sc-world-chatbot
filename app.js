@@ -1,4 +1,4 @@
-const BootBot = require('bootbot');
+const BootBot = require('./Components/bootbot');
 const config = require('./config/configProd');
 require('isomorphic-fetch');
 const bot = new BootBot({

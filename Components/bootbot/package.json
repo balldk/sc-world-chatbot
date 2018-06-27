@@ -1,0 +1,71 @@
+{
+  "_args": [
+    [
+      "bootbot@1.0.15",
+      "D:\\Project\\nodejs\\scworld-chatbot"
+    ]
+  ],
+  "_from": "bootbot@1.0.15",
+  "_id": "bootbot@1.0.15",
+  "_inBundle": false,
+  "_integrity": "sha512-tXWFfzXtd2ogOgdY4MUICuaKi0UFytXln5BloBum8iPFx48jMg8Gf1XMfW1C1JbDstsiBAHY02Hkatrq45xN2g==",
+  "_location": "/bootbot",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "bootbot@1.0.15",
+    "name": "bootbot",
+    "escapedName": "bootbot",
+    "rawSpec": "1.0.15",
+    "saveSpec": null,
+    "fetchSpec": "1.0.15"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/bootbot/-/bootbot-1.0.15.tgz",
+  "_spec": "1.0.15",
+  "_where": "D:\\Project\\nodejs\\scworld-chatbot",
+  "author": {
+    "name": "Maxi Ferreira",
+    "email": "charca@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/Charca/bootbot/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "config": "^1.21.0",
+    "eventemitter3": "^1.2.0",
+    "express": "^4.14.0",
+    "node-fetch": "^1.5.3"
+  },
+  "description": "Facebook Messenger Bot Framework",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "sinon": "^1.17.4"
+  },
+  "homepage": "https://github.com/Charca/bootbot#readme",
+  "keywords": [
+    "messenger",
+    "bot",
+    "chatbot",
+    "chat",
+    "bot",
+    "facebook"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "bootbot",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Charca/bootbot.git"
+  },
+  "scripts": {
+    "test": "mocha --recursive test/*",
+    "test:watch": "npm test -- --watch"
+  },
+  "version": "1.0.15"
+}
