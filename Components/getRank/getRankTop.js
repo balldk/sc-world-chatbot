@@ -7,7 +7,6 @@ module.exports = chat => {
             for (let i = 0; i < 5; i++) {
                 [id, point, name, rank] = res[1].data[i].split('-')
                 tops += `#${rank}: ${name} (${point} điểm)\n`
-                console.log(res[1].data[i]);
             }
             await chat.say({
                 text: tops,
