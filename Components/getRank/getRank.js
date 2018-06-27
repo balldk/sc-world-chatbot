@@ -25,9 +25,14 @@ module.exports = (chat, userID) => {
 			}
 			})[0];
 			if (user) {
-				await chat.say(`Tên: ${name}\nHạng: #${rank} trên ${res[1].data.length}\nĐiểm: ${point}\n`)
-				chat.say({
-					text: `Bạn cần thêm ${afterPoint-point+1} điểm nữa để vượt qua đối thủ tiếp theo nhé ;)`,
+				let date = new Date(res[3].update_time);
+				let [year, month, day] = date.toLocaleDateString().split('-')
+				let [hour, minute, second] = date.toTimeString().split(':')
+				let [ ,cur] = new Date().toLocaleTimeString().split(':')
+				await chat.say(`Tên: ${name}\nHạng: #${rank} trên ${res[1].data.length}\nĐiểm: ${point}`)
+				await chat.say(`Bạn cần thêm ${afterPoint-point+1} điểm nữa để vượt qua đối thủ tiếp theo nhé ;)`)
+				await chat.say({
+					text: `Cập nhật lần cuối lúc: ${parseInt(hour)%12}:${minute} giờ, ${day+'/'+month+'/'+year}. Còn ${cur-minute} phút nữa là hệ thống sẽ cập nhật lại`,
 					buttons: [
 						{ type: 'postback', title: 'Kiểm tra lại', payload: 'RANK_ID' },
 						{ type: 'postback', title: 'Xem Rank Top #5', payload: 'RANK_TOP' },

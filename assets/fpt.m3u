@@ -1,0 +1,7 @@
+#EXTM3U
+#EXTINF:0,VTV6-720P
+https://livecdn.fptplay.net/hdevent/26vtv6hd_2000.stream/chunklist.m3u8
+#EXTINF:0,VTV3-720P
+https://livecdn.fptplay.net/hdevent/26vtv3hd_2000.stream/chunklist.m3u8
+#EXTINF:0,VTV2-720P
+#https://livecdn.fptplay.net/hdevent/vtv2hd_2000.stream/chunklist.m3u8

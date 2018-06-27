@@ -4,12 +4,12 @@
   "description": "Chatbot for scworld",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "start ngrok.exe 3000 && nodemon app",
+    "server": "npm --prefix Components/boobot install && node app"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootbot": "^1.0.15",
     "express": "^4.16.3",
     "isomorphic-fetch": "^2.2.1"
   }

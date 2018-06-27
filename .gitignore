@@ -1,4 +1,5 @@
 test/
 node_modules/
+Components/wc-live
 config/configDev.js
 ngrok.exe
