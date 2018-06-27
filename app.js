@@ -20,7 +20,7 @@ require('./postbacks/rank')(bot)
 
 // Keep Alive
 bot.hear('test', (payload, chat) => {
-	chat.say('test', {typing:1000});
+	chat.say('test');
 });
 
 bot.start(config.PORT);

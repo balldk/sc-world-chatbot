@@ -1,4 +1,5 @@
 test/
 node_modules/
+!node_modules/bootbot/lib/Chat.js
 config/configDev.js
 ngrok.exe
