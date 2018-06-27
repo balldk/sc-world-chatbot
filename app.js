@@ -24,7 +24,7 @@ bot.hear('test', (payload, chat) => {
 });
 
 bot.on('message', (payload, chat) => {
-	chat.sendTypingIndicator(1000)
+	chat.sendTypingIndicator(5000)
 })
 
 bot.start(config.PORT);
